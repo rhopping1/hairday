@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 12px;
+    line-height: 140%;
+}
+
+header {
+    text-align: center;
+    padding: 5vw;
+}
+
+header img {
+    height: 5vw;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    background-color: rgb(242, 228, 179, .3);
+    padding: 15px 0;
+}
+
+nav li {
+    display: inline-block;
+    flex: 1;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #A38FDB;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+nav li a:hover {
+    text-underline-offset: 5px;
+    text-decoration: 3px underline;
+    color: #43278C;
+}
+
+nav li a:active {
+    text-underline-offset: 5px;
+    text-decoration: 3px underline;
+    color: #43278C;
+}
+
+/* Fake active link */
+#li-active { 
+    text-underline-offset: 5px;
+    text-decoration: 3px underline;
+    color: #43278C;
+}
+
+section {
+    display: flex;
+    background-color: white;
+    padding: 0 5vw;
+}
+
+article {
+    flex: 1;
+    margin: 2vw;
+    padding: 10px;
+    flex-direction: column;
+    border: 3px solid rgba(217, 94, 82, .3);
+    border-radius: 5px;
+}
+
+article a {
+    text-decoration: none;
+    color: #A38FDB;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-underline-offset: 5px;
+    text-decoration: 3px underline;
+    color: #43278C;
+}
+
+article a:active {
+    text-underline-offset: 5px;
+    text-decoration: 3px underline;
+    color: #43278C;
+
+}
+
+#promo {
+    background: rgba(163, 143, 219, .3);
+    border: none;
+}
+
+#promo-img {
+    background-image: url(salon.png);
+    height: 200px;
+    width: 100%;
+    background-position: center; 
+    background-size: cover; 
+}
+
+#promo-img h1 {
+    padding: 10px;
+    color: white;
+    background: #D95E52;
+}
+
+.tips {
+    box-shadow: 2px 2px 2px 1px rgba(163, 143, 219, .3);
+}
+
+footer {
+    display: flex;
+    color: #3D361D;
+    font-weight: bold;
+    padding: 50px;
+    align-items: center;
+}
+
+footer div {
+    flex: 1;
+    text-align: right;
+    margin: 0 20px;
+}
+
+footer div:nth-child(2) {
+    text-align: left;
+}
